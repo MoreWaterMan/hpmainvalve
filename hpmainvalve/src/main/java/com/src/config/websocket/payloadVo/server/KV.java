@@ -1,0 +1,24 @@
+package com.src.config.websocket.payloadVo.server;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * Created by Asus on 2019/1/19.
+ */
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class KV {
+    /**
+     * 键
+     */
+    private String key;
+
+    /**
+     * 值
+     */
+    private Object value;
+}
